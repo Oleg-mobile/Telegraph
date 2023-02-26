@@ -1,0 +1,12 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 49px;
+
+	&__brand {
+		color: $primary-color;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}

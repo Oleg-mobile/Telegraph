@@ -1,0 +1,40 @@
+@import 'vars.scss', 'fonts.scss';
+
+* {
+	padding: 0px;
+	margin: 0px;
+	line-height: 1;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto;
+	color: $text-color;
+}
+
+.container {
+	padding: 50px 150px;
+
+	@media screen and (max-width: $x-large) {
+		padding: 50px 75px;
+	}
+
+	@media screen and (max-width: $xs-large) {
+		padding: 40px 60px;
+	}
+
+	@media screen and (max-width: $small) {
+		padding: 35px 45px;
+	}
+}
+
+a {
+	color: $text-color;
+}
+
+// Components
+@import 'components/btn', 'components/card';
+
+// Sections
+@import 'sections/header', 'sections/main', 'sections/info', 'sections/footer',
+	'sections/platforms', 'sections/start', 'sections/stuff';

@@ -1,0 +1,18 @@
+.btn {
+	background-color: $primary-color;
+	border: 1px solid $primary-color;
+	border-radius: 23px;
+	color: $white-color;
+	padding: 15px 20px;
+	cursor: pointer;
+	transition: all linear 200ms;
+
+	&:hover {
+		background-color: transparent;
+		color: $primary-color;
+	}
+
+	&_bx-shadow {
+		box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3);
+	}
+}
